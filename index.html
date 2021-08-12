@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div style="margin: auto; text-align: center;"><h1 id="title">Survey form for the Gamers</h1></div>
+    
+<p id="description">We at Legends Arena are focused about satisfation of our gamers please fill the form so that we
+    can serve you better</p>
+<form id="survey-form">
+    <div class="inputDiv">
+        <label id="email-label" for="email">Email</label>
+        <br>
+        <input class="longInput" type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
+    </div>
+          <div class="inputDiv">
+        <label id="name-label" for="name">Name</label>
+        <br>
+        <input class="longInput" type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+        </input>
+    </div>
+    <div class="inputDiv">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+        <br>
+        <input class="longInput" type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+    </div>
+    <div class="inputDiv">
+        <lable>Which option best describe you as a gamer :</lable>
+        <select class="normalInput" style="height: 25px" id="dropdown">
+            <option>Watcher
+            <option>
+            <option>Light Gamer
+            <option>
+            <option>Moderate Gamer
+            <option>
+            <option>Heavy Gamer
+            <option>
+            <option>Lengedary Gamer
+            <option>
+        </select>
+    </div>
+    <div class="inputDiv">
+        <lable>Would you recommend Gamer Arena to your friends?</lable>
+        <br>
+        <input type="radio" name="recommend" value="definitly">
+        <lable>Definitly</lable>
+        <input type="radio" name="recommend" value="maybe">
+        <lable>MayBe</lable>
+        <input type="radio" name="recommend" value="notSure">
+        <lable>Not Sure </lable>
+
+    </div>
+    <div class="inputDiv">
+        <lable>Which of the following gaming accessories do you use?</lable>
+        <br>
+        <input type="checkbox" value="headphone">
+        <lable>Headphones</lable><br>
+        <input type="checkbox" value="keyboard">
+        <lable>Keyboard</lable><br>
+        <input type="checkbox" value="glasses">
+        <lable>Glasses</lable><br>
+        <input type="checkbox" value="mousepad">
+        <lable>Gaming Mousepad</lable><br>
+        <input type="checkbox" value="mouse">
+        <lable>Mouse</lable><br>
+        <input type="checkbox" value="controller">
+        <lable>Controller</lable><br>
+    </div>
+    <div class="inputDiv">
+        <div>
+            <label>Want to give some feedback about us?</label>
+            <br>
+            <textarea class="longInput" style="min-height: 100px; max-width: 100%" placeholder="Enter your comments here..."></textarea>
+        </div>
+        <div style="text-align: center;">
+            <button class="submit" id="submit" type="submit">Submit</button>
+        </div>
+    </div>
+</form>
+</div>
+
+  
+</body>
+</html>
+  
